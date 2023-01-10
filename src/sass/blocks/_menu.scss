@@ -34,6 +34,7 @@
         position: absolute;
         top: 25px;
         right: 25px;
+        cursor: pointer;
     }
     &-block {
         padding-top: 140px;
@@ -93,6 +94,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a {
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     }
 
     &-overlay {
